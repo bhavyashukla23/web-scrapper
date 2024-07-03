@@ -1,0 +1,117 @@
+* {
+    font-family: 'Helvetica', sans-serif;
+  }
+  
+  
+  .ml-3 {
+    margin-left: 20px;
+    border-radius: 3px;
+    padding: 5px;
+    min-width: 70px;
+    border: grey;
+    color: grey;
+  }
+  
+  .form-container {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    justify-content: space-between;
+  }
+  
+  .save-button {
+    color: rgb(68, 75, 212);
+    margin-left: 20px;
+    background-color: rgb(181, 178, 178);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: rgb(60, 56, 56);
+    min-width: 100px; 
+    min-height: 30px;
+    font-family: 'Helvetica', sans-serif;
+  }
+  
+  .table-container th,
+  .table-container td {
+    margin-left: 20px;
+    padding: 12px;
+  }
+  
+  .table-container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: solid 1px #dee2e6;
+    justify-content: space-around;
+  }
+  
+  .table-container th:first-child,
+  .table-container td:first-child {
+    text-align: center;
+  }
+  
+  .table-container tbody tr:not(:last-child) {
+    border-bottom: 1px solid #dee2e6; 
+  }
+  
+  
+  .d-flex {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .row-1 {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    justify-content: space-around;
+  }
+  
+  .input-url {
+    margin-left: 20px;
+    color: rgb(160, 154, 154);
+    border-radius: 5px;
+    background-color: white;
+    border: ridge rgb(125, 118, 118) 0.5px;
+    min-width: 400px; 
+    min-height: 18px;
+    padding: 7px;
+  }
+  
+  th, tr {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .heading,
+  .text-center{
+    color: grey;
+  }
+  
+  .socials{
+    display:flex;
+    color: rgb(176, 172, 172);
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .company{
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .table-container th,
+  .table-container td {
+    padding: 12px;
+    max-width: 800px; 
+    word-wrap: break-word; 
+  }
+  
+  .table-container tbody tr {
+    border-bottom: 1px solid #dee2e6; 
+  }
+  
+  .table-container tbody tr:last-child {
+    border-bottom: none;
+  }
